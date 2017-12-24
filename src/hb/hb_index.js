@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 import { Link, Route } from 'react-router-dom'
 
-import buttonDocs from '../components/button/docs/button.config.js'
+import ButtonDocs from '../components/button/docs/button_docs.js'
 
 export default props => (
   <Fragment>
-    <Route path={buttonDocs.route} render={buttonDocs.render(props)} />
+    <ButtonDocs />
   </Fragment>
 )
